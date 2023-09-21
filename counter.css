@@ -1,0 +1,115 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+     
+    background-image: linear-gradient(rgba(0, 0, 186, 0.38),rgba(75, 75, 255, 0.802)),url(https://images.unsplash.com/photo-1585575141647-c2c436949374?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);     
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.main-counter{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.mini-counter{
+     border: 2px solid transparent ;
+     padding: 50px;
+     border-radius: 10px;
+     width: 1000px;
+     
+}
+.Step1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(161, 188, 255);
+}
+
+
+.count{
+    font-size: 200px;
+    text-align: center;
+    position: relative;
+}
+.btn:hover{
+    box-shadow: 5px 5px 20px 5px rgba(59, 59, 59, 0.027);
+}
+
+
+.rbtn{
+    border-radius:20px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px 5px rgba(54, 54, 54, 0.65);
+    border: 3px solid transparent ;
+    background-color: transparent;
+    color: rgb(219, 238, 255); 
+  
+}
+.r2btn :hover{
+    box-shadow: 5px 5px 20px 5px rgba(59, 59, 59, 0.027);
+    
+}
+.r2btn{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 23px;
+    padding: 5px;
+    padding-right: 30px;
+    text-align: end;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 195);
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    body{
+        height: 100vh;
+    }
+    .main-counter{
+        width: 0px;
+        margin: 0px auto;
+        height: 100vh;
+    }
+    .mini-counter{
+      width: 90px;
+      height: 40vh;
+      padding: 100px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .btn{
+    
+      position: relative;
+      top: 2px;  
+      right: 100px;
+      font-size: 30px;
+      padding: 18px;
+      margin: 0px 10px 10px 60px;
+        
+    }
+   
+    
+    .count{
+        font-size: 130px;
+       text-align: center;
+    
+    }
+    .r2btn{
+        position: relative;
+      top: 18px;  
+}
+}
